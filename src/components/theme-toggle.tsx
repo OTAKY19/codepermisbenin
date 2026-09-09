@@ -1,14 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+
+function getInitialTheme(): boolean {
+  if (typeof window === "undefined") return false;
+  return localStorage.getItem("cpb_theme") === "dark";
+}
 
 export function ThemeToggle() {
-  const [dark, setDark] = useState(false);
-
-  useEffect(() => {
-    const stored = localStorage.getItem("cpb_theme");
-    if (stored === "dark") setDark(true);
-  }, []);
+  const [dark, setDark] = useState(getInitialTheme);
 
   function toggle() {
     const next = !dark;

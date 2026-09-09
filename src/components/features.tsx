@@ -44,7 +44,7 @@ export function Features() {
         <div className="text-center mb-14">
           <div className="mb-3 flex items-center justify-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-muted">
             <span aria-hidden="true" className="opacity-85">
-              //
+              {"//"}
             </span>
             <span>Fonctionnalités</span>
           </div>

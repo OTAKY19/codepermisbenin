@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         <header style={{ marginBottom: 40 }}>
           <div className="legal-eyebrow">
             <span className="legal-eyebrow-slash" aria-hidden="true">
-              //
+              {"//"}
             </span>
             <span className="legal-eyebrow-label">
               Politique de confidentialité
@@ -174,8 +174,8 @@ export default function PrivacyPage() {
           Pour exercer ces droits, adressez votre demande à{" "}
           <a href="mailto:privacy@btcbenin.com">privacy@btcbenin.com</a>,
           accompagnée d&apos;une copie de votre pièce d&apos;identité. BTC
-          s'engage à répondre dans un délai de 30 jours conformément
-          à l'article 437 du Code du numérique.
+          s&apos;engage à répondre dans un délai de 30 jours conformément
+          à l&apos;article 437 du Code du numérique.
         </p>
 
         <div className="callout">

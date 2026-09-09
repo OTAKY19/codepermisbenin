@@ -56,7 +56,7 @@ export function Hero() {
               style={{ animationDelay: "0ms" }}
             >
               <span aria-hidden="true" className="opacity-85">
-                //
+                {"//"}
               </span>
               <span>Application de code</span>
             </div>

@@ -15,7 +15,7 @@ export default function EulaPage() {
         <header style={{ marginBottom: 40 }}>
           <div className="legal-eyebrow">
             <span className="legal-eyebrow-slash" aria-hidden="true">
-              //
+              {"//"}
             </span>
             <span className="legal-eyebrow-label">Licence d&apos;utilisation</span>
           </div>
