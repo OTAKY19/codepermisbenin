@@ -219,6 +219,7 @@ export default function EulaPage() {
           </Link>
         </div>
       </div>
+      </div>
     </>
   );
 }

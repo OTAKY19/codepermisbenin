@@ -1,0 +1,9 @@
+# Robots.txt — Code Permis Bénin
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://codepermisbenin.vercel.app/sitemap.xml
+
+# Disallow admin/API paths (if any)
+Disallow: /api/
