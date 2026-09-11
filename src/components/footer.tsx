@@ -5,20 +5,12 @@ export function Footer() {
         <p className="flex items-center gap-1.5">
           <span
             aria-hidden="true"
-            className="inline-block size-4 rounded-full"
-            style={{
-              background:
-                "radial-gradient(circle at 50% 50%, #ff5c5c 30%, #e03c3c 70%)",
-              WebkitBackgroundClip: "text",
-              backgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              animation: "heart-beat 4s ease-in-out infinite",
-            }}
+            className="text-muted"
           >
             ♥
           </span>
           <span className="sr-only">Amour</span>
-          © 2026 BÉNIN TECHNOLOGIE CONSULTING — Tous droits réservés
+          © 2026 BÉNIN TECHNOLOGIE CONSULTING · Tous droits réservés
         </p>
       </div>
     </footer>

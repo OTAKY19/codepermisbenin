@@ -7,7 +7,7 @@
   --color-muted: #737373;
   --color-border: #eee;
   --color-border-hover: #e0e0e0;
-  --color-surface: #fff;
+  --color-surface: #fdfdfc;
   --color-surface-hover: #f5f5f5;
   --color-accent: #0a0a0a;
   --font-sans: var(--font-geist-sans);
@@ -22,7 +22,7 @@
   --color-bg: #1f1f1f;
   --color-fg: #f4f4f4;
   --color-fg-secondary: #a3a3a3;
-  --color-muted: #6e6e6e;
+  --color-muted: #8a8a8a; /* 4.77:1 sur #1f1f1f (AA) ; était #6e6e6e (3.23:1) */
   --color-border: #2e2e2e;
   --color-border-hover: #3a3a3a;
   --color-surface: #262626;
@@ -38,21 +38,13 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
   font-feature-settings: "ss01", "cv11";
   text-rendering: optimizeLegibility;
-  background-image:
-    radial-gradient(80% 60% at 50% 28%, rgba(255,255,255,0.75) 0%, transparent 55%),
-    radial-gradient(120% 100% at 50% 40%, rgba(255,255,255,0.3) 0%, transparent 90%);
-}
-
-[data-theme="dark"] body {
-  background-image:
-    radial-gradient(90% 70% at 50% 35%, rgba(255,255,255,0.035) 0%, transparent 60%);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-/* ── Navbar scroll blur ── */
+/* ── Navbar scroll blur (garde la lisibilité du contenu qui défile dessous) ── */
 .navScrolled {
   backdrop-filter: saturate(140%) blur(12px);
   -webkit-backdrop-filter: saturate(140%) blur(12px);
@@ -146,18 +138,6 @@ html {
   75%  { transform: translateY(-4px) scale(1.005) rotate(-0.3deg); }
   100% { transform: translateY(0) scale(1) rotate(0deg); }
 }
-@keyframes starsReveal {
-  from { clip-path: inset(0 100% 0 0); }
-  to   { clip-path: inset(0 0% 0 0); }
-}
-@keyframes starsBreathing {
-  0%, 100% { filter: drop-shadow(0 0 2px rgba(250,204,21,0)); }
-  50%      { filter: drop-shadow(0 0 6px rgba(250,204,21,0.45)); }
-}
-@keyframes heart-beat {
-  0%, 100% { background-position: 50% 50%; }
-  50%      { background-position: 42% 42%; }
-}
 .fadeUp {
   animation: fadeUp 800ms var(--ease-out-soft) both;
 }
@@ -176,18 +156,15 @@ html {
 /* ── Callout boxes (legal pages) ── */
 .callout {
   background: #eff6ff;
-  border-left: 4px solid #2563eb;
   border-radius: 8px;
   padding: 16px;
   margin: 16px 0;
 }
 .callout-red {
   background: #fef2f2;
-  border-left-color: #dc2626;
 }
 .callout-green {
   background: #f0fdf4;
-  border-left-color: #16a34a;
 }
 [data-theme="dark"] .callout {
   background: #1e3a5f;

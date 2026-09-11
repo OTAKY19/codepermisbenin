@@ -33,7 +33,7 @@ export default function PrivacyPage() {
             Conformément à l&apos;article 405 du Code du numérique, BTC a
             effectué la déclaration de ce traitement de données personnelles
             auprès de l&apos;Autorité de Protection des Données Personnelles
-            (APDP Bénin — apdp.bj). La référence de déclaration est disponible
+            (APDP Bénin, apdp.bj). La référence de déclaration est disponible
             sur demande écrite à{" "}
             <a href="mailto:privacy@btcbenin.com">privacy@btcbenin.com</a>.
           </p>
@@ -67,11 +67,11 @@ export default function PrivacyPage() {
         </p>
         <ul>
           <li>
-            Identifiant technique d&apos;appareil — non nominatif, généré
-            localement
+            Identifiant technique d&apos;appareil (non nominatif, généré
+            localement)
           </li>
           <li>
-            Empreinte technique (modèle, OS version) — finalité anti-fraude
+            Empreinte technique (modèle, OS version) : finalité anti-fraude
             uniquement
           </li>
           <li>
@@ -185,7 +185,7 @@ export default function PrivacyPage() {
           <p style={{ marginTop: 4 }}>
             Si vous estimez que vos droits ne sont pas respectés, vous pouvez
             saisir l&apos;Autorité de Protection des Données Personnelles du
-            Bénin (APDP) à l&apos;adresse : apdp.bj — Tél. : +229 21 32 57 88.
+            Bénin (APDP) à l&apos;adresse : apdp.bj, tél. : +229 21 32 57 88.
           </p>
         </div>
 

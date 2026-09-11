@@ -1,16 +1,6 @@
 export function Hero() {
   return (
     <section className="relative pt-[80px] pb-[80px] md:pt-[100px] md:pb-[100px]">
-      {/* Lueur derrière le téléphone */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute left-[8%] top-[22%] z-0 hidden h-[420px] w-[420px] rounded-full opacity-50 blur-[100px] md:block"
-        style={{
-          background:
-            "radial-gradient(circle, rgba(0,0,0,0.07) 0%, transparent 70%)",
-        }}
-      />
-
       <div className="relative z-10 mx-auto max-w-[960px] px-5">
         <div className="grid items-center gap-8 md:grid-cols-[1fr_2fr] md:gap-10">
           {/* Colonne démo */}
@@ -78,59 +68,13 @@ export function Hero() {
               un suivi de progression.
             </p>
 
-            {/* Stars */}
-            <div
-              className="fadeUp mt-5 flex items-center gap-2.5 text-sm"
+            {/* Preuve vérifiable */}
+            <p
+              className="fadeUp mt-5 text-sm text-muted"
               style={{ animationDelay: "220ms" }}
             >
-              <div
-                className="relative flex"
-                role="img"
-                aria-label="Noté 4.9 sur 5"
-                style={{ animation: "starsBreathing 4s ease-in-out infinite" }}
-              >
-                {/* Stars base (gris) */}
-                <div className="flex" aria-hidden="true">
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={`base-${i}`}
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-[18px] w-[18px] text-muted"
-                    >
-                      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.77.56l-4.619-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
-                    </svg>
-                  ))}
-                </div>
-                {/* Stars fill (amber) with clip animation */}
-                <div
-                  className="absolute inset-0 flex"
-                  aria-hidden="true"
-                  style={{
-                    animation: "starsReveal 1.2s var(--ease-out-soft) 600ms both",
-                    clipPath: "inset(0 100% 0 0)",
-                  }}
-                >
-                  {[...Array(5)].map((_, i) => (
-                    <svg
-                      key={`fill-${i}`}
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-[18px] w-[18px] text-amber-400"
-                    >
-                      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.77.56l-4.619-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
-                    </svg>
-                  ))}
-                </div>
-              </div>
-              <span className="font-mono text-xs font-semibold text-fg">
-                4.9
-              </span>
-              <span aria-hidden="true" className="text-muted">
-                ·
-              </span>
-              <span className="text-muted">Google Play</span>
-            </div>
+              Questions officielles du code de la route béninoise, avec audio.
+            </p>
 
             {/* Boutons */}
             <div

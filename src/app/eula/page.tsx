@@ -121,7 +121,7 @@ export default function EulaPage() {
           Code Permis Bénin est fourni <strong>&laquo; en l&apos;état &raquo;</strong>.
           Nous ne garantissons pas qu&apos;il sera ininterrompu, exempt
           d&apos;erreurs ou adapté à un usage particulier. Dans la limite de la
-          loi applicable, toutes les garanties sont exclues — y compris la
+          loi applicable, toutes les garanties sont exclues, y compris la
           garantie de qualité marchande, d&apos;adéquation à un usage
           particulier et de non-contrefaçon.
         </p>

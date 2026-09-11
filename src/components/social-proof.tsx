@@ -1,9 +1,9 @@
 export function SocialProof() {
   const stats = [
-    { value: "10 000+", label: "Élèves formés" },
-    { value: "4.9/5", label: "Note Google Play" },
     { value: "900+", label: "Questions audio" },
-    { value: "65%", label: "Taux de réussite visé" },
+    { value: "30", label: "Questions par examen" },
+    { value: "65%", label: "Seuil officiel de réussite" },
+    { value: "7", label: "Quiz gratuits à l'inscription" },
   ];
 
   return (

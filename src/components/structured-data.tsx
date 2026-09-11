@@ -14,12 +14,6 @@ export function StructuredData() {
       priceCurrency: "XOF",
       description: "Premium 90 jours",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      ratingCount: "1200",
-      bestRating: "5",
-    },
     author: {
       "@type": "Organization",
       name: "Bénin Technologie Consulting",
