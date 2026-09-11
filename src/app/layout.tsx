@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Code Permis Bénin",
   },
   description:
-    "Prépare-toi à l'examen du code de la route au Bénin. Quiz interactifs, examens blancs chronométrés et suivi de progression. L'app n°1 pour réussir ton permis de conduire.",
+    "Prépare-toi à l'examen du code de la route au Bénin. Quiz interactifs, examens blancs chronométrés et suivi de progression.",
   keywords: [
     "code permis bénin",
     "examen permis conduire bénin",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Code Permis Bénin",
     description:
-      "Réussis ton code du premier coupe. Quiz, examens blancs et suivi de progression.",
+      "Réussis ton code du premier coup. Quiz, examens blancs et suivi de progression.",
     images: ["/og-image.png"],
     creator: "@codepermisbenin",
   },
