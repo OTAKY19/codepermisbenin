@@ -56,7 +56,7 @@ export function Features() {
     <section className="bg-surface-2 px-5 py-20 md:py-24" id="fonctionnalites">
       <div className="mx-auto max-w-[960px]">
         <div className="text-center mb-14">
-          <div className="mb-3 flex items-center justify-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-muted">
+          <div className="mb-3 flex items-center justify-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-brand">
             <span aria-hidden="true" className="opacity-85">
               {"//"}
             </span>

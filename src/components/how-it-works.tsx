@@ -24,7 +24,7 @@ export function HowItWorks() {
     <section className="px-5 py-20 md:py-24" id="etapes">
       <div className="mx-auto max-w-[960px]">
         <div className="mb-14 max-w-[560px]">
-          <div className="mb-3 flex items-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-muted">
+          <div className="mb-3 flex items-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-brand">
             <span aria-hidden="true" className="opacity-85">
               {"//"}
             </span>
