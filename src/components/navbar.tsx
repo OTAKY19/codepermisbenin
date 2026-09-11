@@ -30,7 +30,7 @@ export function Navbar() {
           className="h-7 w-7 rounded-[0.4rem]"
         />
         <span className="text-[.88rem] font-extrabold tracking-[0.02em] text-fg">
-          CODE PERMIS <span className="text-[#7BAF8E]">BÉNIN</span>
+          CODE PERMIS <span className="text-brand">BÉNIN</span>
         </span>
       </Link>
 
@@ -42,6 +42,13 @@ export function Navbar() {
           className="hidden h-8 items-center rounded-lg px-3 text-[.82rem] font-medium text-muted transition-colors hover:bg-surface hover:text-fg sm:inline-flex"
         >
           Télécharger
+        </a>
+
+        <a
+          href="#fonctionnalites"
+          className="hidden h-8 items-center rounded-lg px-3 text-[.82rem] font-medium text-muted transition-colors hover:bg-surface hover:text-fg sm:inline-flex"
+        >
+          Fonctionnalités
         </a>
 
         <Link

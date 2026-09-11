@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-@theme inline {
+/* Sans « inline » : les utilities émettent var(--color-*) et héritent
+   donc des redéfinitions [data-theme="dark"] (mode sombre fonctionnel). */
+@theme {
   --color-bg: #fafafa;
   --color-fg: #0a0a0a;
   --color-fg-secondary: #525252;
@@ -8,7 +10,12 @@
   --color-border: #eee;
   --color-border-hover: #e0e0e0;
   --color-surface: #fdfdfc;
+  --color-surface-2: #f5f6f5;
   --color-surface-hover: #f5f5f5;
+  /* Marque : vert logo (4.63:1 sur #fafafa — AA grand texte) */
+  --color-brand: #0e6b35;
+  --color-brand-deep: #0b5d2d;
+  --color-brand-tint: #eaf8ef;
   --color-accent: #0a0a0a;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -26,7 +33,12 @@
   --color-border: #2e2e2e;
   --color-border-hover: #3a3a3a;
   --color-surface: #262626;
+  --color-surface-2: #1a1a1a;
   --color-surface-hover: #2e2e2e;
+  /* Vert éclairci pour rester lisible sur fond sombre (4.6:1 sur #1f1f1f) */
+  --color-brand: #5dba83;
+  --color-brand-deep: #3d8f61;
+  --color-brand-tint: #1c2b22;
   --color-accent: #f4f4f4;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.25);
   --shadow-md: 0 4px 14px rgba(0,0,0,0.35);
@@ -154,6 +166,10 @@ html {
 }
 
 /* ── Callout boxes (legal pages) ── */
+.finalCta {
+  background: linear-gradient(180deg, var(--color-brand-deep), #083f20);
+}
+
 .callout {
   background: #eff6ff;
   border-radius: 8px;

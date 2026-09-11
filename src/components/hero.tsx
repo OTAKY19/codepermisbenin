@@ -5,7 +5,7 @@ export function Hero() {
         <div className="grid items-center gap-8 md:grid-cols-[1fr_2fr] md:gap-10">
           {/* Colonne démo */}
           <figure
-            className="fadeUp mx-auto w-[260px] md:order-1 md:mx-0 md:w-full md:max-w-[460px]"
+            className="fadeUp order-2 mx-auto w-[260px] md:order-1 md:mx-0 md:w-full md:max-w-[460px]"
             style={{ animationDelay: "0ms" }}
             aria-label="Aperçu de l'application sur iPhone"
           >
@@ -40,7 +40,7 @@ export function Hero() {
           </figure>
 
           {/* Colonne contenu */}
-          <div className="flex flex-col items-center text-center md:order-2 md:items-start md:text-left">
+          <div className="order-1 flex flex-col items-center text-center md:order-2 md:items-start md:text-left">
             <div
               className="fadeUp mb-3 flex items-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-muted"
               style={{ animationDelay: "0ms" }}
@@ -57,7 +57,7 @@ export function Hero() {
             >
               Réussis ton code
               <br />
-              du premier coup.
+              <span className="text-brand">du premier coup.</span>
             </h1>
 
             <p

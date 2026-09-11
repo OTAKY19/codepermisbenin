@@ -53,7 +53,7 @@ const features = [
 
 export function Features() {
   return (
-    <section className="py-20 px-5" id="fonctionnalites">
+    <section className="bg-surface-2 px-5 py-20 md:py-24" id="fonctionnalites">
       <div className="mx-auto max-w-[960px]">
         <div className="text-center mb-14">
           <div className="mb-3 flex items-center justify-center gap-2 font-mono text-[.72rem] font-medium uppercase tracking-[.2em] text-muted">
@@ -77,7 +77,10 @@ export function Features() {
               key={f.title}
               className={`rounded-2xl border border-border bg-surface p-6 ${f.span}`}
             >
-              <div className="mb-3 text-muted" aria-hidden="true">
+              <div
+                className="mb-8 flex h-11 w-11 items-center justify-center rounded-[13px] bg-brand-tint text-brand"
+                aria-hidden="true"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
